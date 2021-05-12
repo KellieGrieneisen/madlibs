@@ -1,6 +1,16 @@
 <!doctype html>
 <html>
 <head>
+  <style>
+    body{
+      background-color:yellow;
+      
+    }
+    form {
+      font-style: italic;
+      font-size: 2em;
+    }
+  </style>
   <title>Let's play a game...</title>
 </head>
 <body>
@@ -8,10 +18,10 @@
 <h1></h1>
 
 <form action="/madlib">
-  Provide a random person's name. <input type="text" ran_person="random_name"><br>
-  Provide a color. <input type="text" color="color"><br>
-  Provide a kitchen utensil. <input type="text" noun="kitchen_utensil"><br>
-  Provide an adjective. <input type="text" adj="adjective"><br>
+  Provide a random person's name. <input type="text" name="random_name"><br>
+  Provide a color. <input type="text" name="color"><br>
+  Provide a kitchen utensil. <input type="text" name="kitchen_utensil"><br>
+  Provide an adjective. <input type="text" name="adjective"><br>
   <input type="submit">
 </form>
 
